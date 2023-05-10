@@ -1,0 +1,169 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: black;
+}
+
+.top-container {
+    padding-top: 100px;
+    position: relative;
+    background-color: #e0ebe8;
+}
+
+h1 {
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #45b29a;
+    width: 350px;
+    height: 84px;
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #1e836c;
+    margin-bottom: 50px;
+}
+
+h3,
+h4 {
+    font-family: 'Montserrat' sans-serif;
+    color: #45b29a;
+
+}
+
+span {
+    text-decoration: underline;
+}
+
+.pro {
+    font-size: x-large;
+    color: #45b29a;
+}
+
+.cloud-1 {
+    position: absolute;
+    height: 10%;
+    top: 10%;
+    right: 25%;
+}
+
+.cloud-2 {
+    position: absolute;
+    ;
+    height: 10%;
+}
+
+.profile_img:hover{
+    height: 300px;
+}
+.profile_img {
+    height: 150px;
+}
+
+/* setting up the position to absolute without specifying any coordinate 
+puts it into a random position but it breaks the static positioning
+*/
+
+.gif {
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+.gif:hover{
+    background-color:lightslategrey ;
+}
+.skill-row {
+    height: 40%;
+}
+
+.game:hover{
+    background-color:lightgrey;
+
+}
+.game {
+    margin-top: 100px;
+    height: 200px;
+    background-color: none;
+}
+
+hr {
+    border: rgb(195, 193, 193) 5px;
+    border-top-style: dotted;
+    width: 5%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.contact-me {
+    padding-bottom: 50px;
+
+}
+
+.bottom-container {
+    display: block;
+    background-color: #c5ded7;
+    margin: 0;
+    padding: 100px;
+    position: relative;
+}
+
+
+.footer-link {
+    text-decoration: none;
+    color: #45b29a;
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+#copyright {
+    color: #45b29a;
+    font-size: small;
+    position: absolute;
+    bottom: 30px;
+    left: 600px;
+}
+
+#github {
+    position: absolute;
+    left: 250px;
+    top: 60px;
+}
+
+#replit {
+    position: absolute;
+    left: 600px;
+    top: 60px;
+}
+
+#stackoverflow {
+    position: absolute;
+    right: 250px;
+    top: 60px;
+}
+
+.middle-container {
+    margin: 50px auto 20px;
+}
+
+.fun{
+    margin-bottom: 100px;
+}
+
+#submit{
+    background-color: darkseagreen;
+    border: none;
+    color: whitesmoke;
+    width: 80px;
+    height: 30px;
+    text-decoration: solid;
+    font-size: larger;
+    margin-left: 10px;
+}
+
+#submit:hover{
+    background-color: lightseagreen;
+    
+}
