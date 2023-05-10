@@ -1,36 +1,71 @@
 body {
     text-align: center;
     margin: 0;
-    font-family: brandon-grotesque, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro {
+    color: #40514e;
+}
+
+hr {
+    border: none;
+    border-top: dotted #eaf6f6;
+    border-width: 7px;
+    width: 5%;
+    margin: 100px auto;
 }
 
 .top-container {
     padding-top: 100px;
     position: relative;
-    background-color: #e0ebe8;
+    background-color: #eaf6f6;
 }
 
 h1 {
-    margin: 0 auto 0 auto;
+    margin: 50px auto 0;
+    font-size: 5rem;
     font-family: 'Sacramento', cursive;
-    color: #45b29a;
-    width: 350px;
-    height: 84px;
-    font-size: 4em;
-    margin-bottom: 20px;
+    color: #66BFBF;
+    line-height: 1;
 }
 
 h2 {
-    color: #1e836c;
-    margin-bottom: 50px;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
-h3,
+h3 {
+    font-family: 'Montserrat' sans-serif;
+    color: #11999E;
+    font-weight: 500;
+}
+
 h4 {
     font-family: 'Montserrat' sans-serif;
-    color: #45b29a;
 
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.chillies {
+    width: 25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+.design {
+    width: 25%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
 }
 
 span {
@@ -38,121 +73,97 @@ span {
 }
 
 .pro {
-    font-size: x-large;
-    color: #45b29a;
+    font-size: large;
 }
 
+a {
+    color: #11999E;
+}
+
+/* setting up the position to absolute without specifying any coordinate 
+puts it into a random position but it breaks the static positioning
+*/
 .cloud-1 {
     position: absolute;
-    height: 10%;
     top: 10%;
     right: 25%;
 }
 
 .cloud-2 {
     position: absolute;
-    ;
-    height: 10%;
 }
 
-.profile_img:hover{
+.profile_img:hover {
     height: 300px;
 }
+
 .profile_img {
     height: 150px;
 }
 
-/* setting up the position to absolute without specifying any coordinate 
-puts it into a random position but it breaks the static positioning
-*/
-
 .gif {
-    margin-top: 20px;
     border-radius: 100%;
 }
 
-.gif:hover{
-    background-color:lightslategrey ;
-}
-.skill-row {
-    height: 40%;
+.gif:hover {
+    background-color: lightslategrey;
 }
 
-.game:hover{
-    background-color:lightgrey;
-
-}
 .game {
-    margin-top: 100px;
     height: 200px;
-    background-color: none;
 }
 
-hr {
-    border: rgb(195, 193, 193) 5px;
-    border-top-style: dotted;
-    width: 5%;
-    margin-top: 80px;
-    margin-bottom: 80px;
+.game:hover {
+    background-color: lightgrey;
 }
 
-.contact-me {
-    padding-bottom: 50px;
+.fun {
+    margin: 50px auto 80px;
+}
 
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
 }
 
 .bottom-container {
-    display: block;
-    background-color: #c5ded7;
-    margin: 0;
-    padding: 100px;
-    position: relative;
-}
+    background-color: #66BFBF;
+    color: #11999E;
+    margin-top: 100px;
+    padding: 50px;
 
+}
 
 .footer-link {
     text-decoration: none;
-    color: #45b29a;
-    font-size: 20px;
-    font-style: normal;
+    margin: 30px;
 }
 
+/* contact me.html starts from here */
 
-#copyright {
-    color: #45b29a;
-    font-size: small;
-    position: absolute;
-    bottom: 30px;
-    left: 600px;
-}
-
-#github {
-    position: absolute;
-    left: 250px;
-    top: 60px;
-}
-
-#replit {
-    position: absolute;
-    left: 600px;
-    top: 60px;
-}
-
-#stackoverflow {
-    position: absolute;
-    right: 250px;
-    top: 60px;
-}
-
-.middle-container {
-    margin: 50px auto 20px;
-}
-
-.fun{
-    margin-bottom: 100px;
-}
-
-#submit{
+#submit {
     background-color: darkseagreen;
     border: none;
     color: whitesmoke;
@@ -163,7 +174,7 @@ hr {
     margin-left: 10px;
 }
 
-#submit:hover{
+#submit:hover {
     background-color: lightseagreen;
-    
+
 }
